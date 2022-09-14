@@ -1,0 +1,17 @@
+첫 줄 (0) white
+
+중간 줄 (1 ~ N-2) 중 blue 하나 이상
+
+마지막 줄 (N-1) red
+
+L1, L2
+중간 줄 중에서 blue가 가장 많은 한 줄 index -> b_idx
+L1 -> (1~ b_idx-1) -> range(1, b_idx)
+해보고 가장 작은 swap을 하는...
+<흰 + 파>
+
+
+그 이후에 
+L2 -> (b_idx+1, N-2) -> range(b_idx+1, N-1)
+그 중 가장 작은 swap을 하는
+<파 + 빨>
